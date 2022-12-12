@@ -1,7 +1,8 @@
 import "./App.css";
+import { Navbar } from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
-  return <button class="btn btn-primary m-5">hello</button>;
+  return <Navbar />;
 }
 
 export default App;

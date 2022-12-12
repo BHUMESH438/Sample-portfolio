@@ -1,0 +1,13 @@
+#mainMenu .nav-link {
+  color: #17a2b8;
+}
+#mainMenu .nav-link:hover {
+  background: #17a2b8;
+  border-radius: 5px;
+  color: #262626;
+}
+#mainMenu .nav-link.active {
+  background: #17a2b8;
+  border-radius: 5px;
+  color: #262626;
+}
