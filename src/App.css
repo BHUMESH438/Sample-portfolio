@@ -11,3 +11,52 @@
   border-radius: 5px;
   color: #262626;
 }
+@media (max-width: 577px) {
+  .navbar-brand {
+    font-weight: bolder;
+  }
+}
+/*------------header----------------*/
+.header-wraper {
+  position: relative;
+  background: url(heroheader.jpg);
+  height: 90vh;
+  /* background-size: 100% 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 2p;
+}
+.txtcolor {
+  color: azure;
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  border-right: 0.125rem solid azure;
+  animation: typewriter 4s steps(88) normal, blinktextCurser 0.5s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  text-shadow: 4px 5px 10px rgb(254, 253, 253);
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 711px;
+  }
+}
+@keyframes blinktextCurser {
+  from {
+    border-right-color: azure;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
