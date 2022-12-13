@@ -21,7 +21,6 @@ export const Navbar = () => {
             <a className="nav-link text-white" href="#">
               Skills
             </a>
-            <a className="nav-link text-white ">Portfolio</a>
             <a className="nav-link text-white ">Contact</a>
           </div>
         </div>
