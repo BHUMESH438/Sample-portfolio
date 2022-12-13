@@ -6,7 +6,7 @@
 + Started project by using create-react-app file name
 + it has 5 sections about,headersection & navigation, skills and contact secion
 
-### 2.Tech used - React,Bootsrap, Html, Css
+### 2.Tech used - React-18,Bootsrap-5.2x, Html, Css
 
 ### 3.Hosted in - Github pages
  
