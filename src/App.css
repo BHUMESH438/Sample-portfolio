@@ -1,16 +1,9 @@
-#mainMenu .nav-link {
-  color: #17a2b8;
-}
 #mainMenu .nav-link:hover {
   background: #17a2b8;
   border-radius: 5px;
   color: #262626;
 }
-#mainMenu .nav-link {
-  background: #17a2b8;
-  border-radius: 5px;
-  color: #262626;
-}
+
 @media (max-width: 577px) {
   .navbar-brand {
     font-weight: bolder;
@@ -32,7 +25,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-right: 2p;
+  border-right: 2px;
 }
 .txtcolor {
   color: azure;
@@ -43,20 +36,4 @@
   white-space: nowrap;
   overflow: hidden;
   text-shadow: 4px 5px 10px rgb(254, 253, 253);
-}
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 711px;
-  }
-}
-@keyframes blinktextCurser {
-  from {
-    border-right-color: azure;
-  }
-  to {
-    border-right-color: transparent;
-  }
 }

@@ -1,0 +1,16 @@
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20rem;
+  }
+}
+@keyframes blinktextCurser {
+  from {
+    border-right-color: azure;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

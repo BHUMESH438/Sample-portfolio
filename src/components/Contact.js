@@ -21,7 +21,7 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contacts" className="container-fluid bg-dark bg-opacity-50 text-center ">
+    <div id="contacts" className="container-fluid  bg-dark bg-opacity-50 text-center ">
       <div className="contacts p-5">
         <h1 className="text-success TA">CONTACT ME</h1>
         <p className="text-dark PA">Please fill out the form and describe your project needs amd I'll contact you as soon as possible.</p>
