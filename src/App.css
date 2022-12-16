@@ -6,7 +6,7 @@
   border-radius: 5px;
   color: #262626;
 }
-#mainMenu .nav-link.active {
+#mainMenu .nav-link {
   background: #17a2b8;
   border-radius: 5px;
   color: #262626;
