@@ -16,5 +16,11 @@
 + Used Bootstrap for Navbar
 + Used Keyframe animation typed animation in CSS
 + Used [FontAwsome](https://fontawesome.com/icons) for icons in skills
-+ Used [CSS tricks](https://css-tricks.com/how-to-create-neon-text-with-css/) for css animation. i.e Neon effect in About section.
++ Used [CSS tricks](https://css-tricks.com/how-to-create-neon-text-with-css/) for css animation. i.e Neon effect in About section. 
+
+### 5.contacts
+
++ for this section i used bootsrap v5 for building forms and also used default browser form validation
++ used email.js for contacting
++ for icons used [icon-icons.com](https://icon-icons.com/download/86373/ICO/512/)
 
