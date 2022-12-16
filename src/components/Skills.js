@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div className="container-fluid">
+    <div id="skills" className="container-fluid">
       <div className="row d-flex justify-content-evenly bg-primary align-items-center">
         <div className="col-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">

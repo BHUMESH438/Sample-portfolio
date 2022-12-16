@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm bg-dark ">
-      <div className="container-fluid p-2">
+    <nav className="navbar navbar-expand-sm bg-dark  fixed-top">
+      <div className="container-fluid p-1">
         <a className="navbar-brand " href="#" style={{ color: "#17a2b8" }}>
           MyWebsite
         </a>
@@ -12,16 +13,18 @@ export const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="mainMenu">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link text-white" aria-current="page" href="#">
+            <Link smooth={true} to="home" className="nav-link text-white" aria-current="page" href="#">
               Home
-            </a>
-            <a className="nav-link text-white" href="#">
+            </Link>
+            <Link smooth={true} to="about" className="nav-link text-white" offset={-110} href="#">
               About
-            </a>
-            <a className="nav-link text-white" href="#">
+            </Link>
+            <Link smooth={true} to="skills" className="nav-link text-white" href="#">
               Skills
-            </a>
-            <a className="nav-link text-white ">Contact</a>
+            </Link>
+            <Link smooth={true} to="contacts" className="nav-link text-white ">
+              Contact
+            </Link>
           </div>
         </div>
       </div>
