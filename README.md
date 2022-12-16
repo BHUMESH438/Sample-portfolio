@@ -18,3 +18,7 @@
 + Used [FontAwsome](https://fontawesome.com/icons) for icons in skills
 + Used [CSS tricks](https://css-tricks.com/how-to-create-neon-text-with-css/) for css animation. i.e Neon effect in About section.
 
+### 5.contacts section is made and it uses:
+
++ default browser validation and bootsrap v5 forms
++ email js for contact
