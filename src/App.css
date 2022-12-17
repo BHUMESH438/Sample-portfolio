@@ -3,6 +3,11 @@
   border-radius: 5px;
   color: #262626;
 }
+.SC {
+  background: #17a2b8;
+  border-radius: 5px;
+  color: #262626;
+}
 
 @media (max-width: 577px) {
   .navbar-brand {

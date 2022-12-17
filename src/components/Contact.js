@@ -19,7 +19,7 @@ export const Contact = () => {
       error => {
         console.log(error.text);
         setTimeout(() => {
-          alert("Something went worng");
+          alert("Something");
         });
       }
     );

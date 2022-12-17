@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div id="skills" className="container-fluid pb-5 bg-dark ">
       <div className="row d-flex justify-content-evenly bg-dark align-items-center  text-white">
-        <h1 className="sk pt-3 mt-5">Skills</h1>
+        <h1 className="sk  mt-2">Skills</h1>
         <p className="pt-3 mb-4">I have worked with below mentioned skills and also i have included my resume in it kindly download it if you are intrested in my profile</p>
       </div>
       <a role="button" href="Bhumesh-22.pdf" download="Bhumesh-22.pdf" className="btn btn-outline-primary mb-3">

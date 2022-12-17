@@ -19,21 +19,21 @@ export const Navbar = () => {
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel" style={{ color: "#17a2b8" }}>
               Portfolio
             </h5>
-            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div className="offcanvas-body">
             <div className="navbar-nav ms-auto">
               {/* here i used link for auto scroll */}
-              <Link smooth={true} to="home" className="nav-link text-white" offset={-110} aria-current="page" href="#">
+              <Link smooth={true} to="home" spy={true} className="nav-link text-white" offset={-50} duration={288} aria-current="page" href="#">
                 Home
               </Link>
-              <Link smooth={true} to="about" className="nav-link text-white" href="#">
+              <Link smooth={true} to="about" spy={true} className="nav-link text-white" offset={-55} duration={288} href="#">
                 About
               </Link>
-              <Link smooth={true} to="skills" className="nav-link text-white" href="#">
+              <Link smooth={true} to="skills" spy={true} className="nav-link text-white" offset={-90} duration={288} href="#">
                 Skills
               </Link>
-              <Link smooth={true} to="contacts" className="nav-link text-white ">
+              <Link smooth={true} to="contacts" spy={true} className="nav-link text-white " offset={-50} duration={288}>
                 Contact
               </Link>
             </div>
