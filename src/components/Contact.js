@@ -18,13 +18,16 @@ export const Contact = () => {
       },
       error => {
         console.log(error.text);
+        setTimeout(() => {
+          alert("Something went worng");
+        });
       }
     );
     e.target.reset(); //this will reset every thing in the form
   };
 
   return (
-    <div id="contacts" className="container-fluid  bg-dark bg-opacity-50 text-center ">
+    <div id="contacts" className="container-fluid bg-dark bg-opacity-50 text-center ">
       <div className="contacts p-5">
         <h1 className="text-success TA">CONTACT ME</h1>
         <p className="text-dark PA">Please fill out the form and describe your project needs amd I'll contact you as soon as possible.</p>
@@ -59,9 +62,7 @@ export const Contact = () => {
               <textarea type="text" className="form-control mb-3 TX FM" placeholder="Send me a Message" name="description" required></textarea>
               <label htmlFor="FM">Message me.</label>
             </div>
-            <button type="button" className="btn btn-primary col-3 offset-5 mb-5">
-              send
-            </button>
+            <button className="btn btn-primary col-3 offset-5 mb-5">send</button>
           </div>
         </form>
       </div>
