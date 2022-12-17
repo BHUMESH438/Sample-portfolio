@@ -12,6 +12,9 @@ export const Contact = () => {
     emailjs.sendForm("service_ID16EIR017", "template_ID16EIR017", form.current, "kYqg0oRKjDehPrulT").then(
       result => {
         console.log(result.text);
+        setTimeout(() => {
+          alert("Message Sent Successfully😀");
+        });
       },
       error => {
         console.log(error.text);
@@ -56,7 +59,9 @@ export const Contact = () => {
               <textarea type="text" className="form-control mb-3 TX FM" placeholder="Send me a Message" name="description" required></textarea>
               <label htmlFor="FM">Message me.</label>
             </div>
-            <button className="btn btn-primary col-3 offset-5 mb-5">send</button>
+            <button type="button" className="btn btn-primary col-3 offset-5 mb-5">
+              send
+            </button>
           </div>
         </form>
       </div>
