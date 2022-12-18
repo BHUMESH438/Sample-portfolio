@@ -14,7 +14,7 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         {/* here i used offcanvas class so it will be responsive after sm */}
-        <div className="offcanvas offcanvas-bottom text-bg-dark" tabIndex={"-1"} id="mainMenu" data-bs-scroll="true" data-bs-backdrop="true">
+        <div className="offcanvas offcanvas-bottom text-bg-dark" tabIndex={"-1"} id="mainMenu" data-bs-scroll="true" data-bs-backdrop="false">
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel" style={{ color: "#17a2b8" }}>
               Portfolio
@@ -24,13 +24,13 @@ export const Navbar = () => {
           <div className="offcanvas-body">
             <div className="navbar-nav ms-auto">
               {/* here i used link for auto scroll */}
-              <Link smooth={true} to="home" spy={true} className="nav-link text-white" offset={-50} duration={288} aria-current="page" href="#">
+              <Link smooth={true} to="home" spy={true} className="nav-link text-white" offset={-50} duration={500} aria-current="page" href="#">
                 Home
               </Link>
-              <Link smooth={true} to="about" spy={true} className="nav-link text-white" offset={-55} duration={288} href="#">
+              <Link smooth={true} to="about" spy={true} className="nav-link text-white" offset={-55} duration={180} href="#">
                 About
               </Link>
-              <Link smooth={true} to="skills" spy={true} className="nav-link text-white" offset={-90} duration={288} href="#">
+              <Link smooth={true} to="skills" spy={true} className="nav-link text-white" offset={-90} duration={180} href="#">
                 Skills
               </Link>
               <Link smooth={true} to="contacts" spy={true} className="nav-link text-white " offset={-50} duration={288}>
