@@ -24,7 +24,7 @@ export const Navbar = () => {
           <div className="offcanvas-body">
             <div className="navbar-nav ms-auto">
               {/* here i used link for auto scroll */}
-              <Link smooth={true} to="home" spy={true} className="nav-link text-white" offset={-50} duration={500} aria-current="page" href="#">
+              <Link smooth={true} to="home" spy={true} className="nav-link text-white" offset={-50} duration={150} aria-current="page" href="#">
                 Home
               </Link>
               <Link smooth={true} to="about" spy={true} className="nav-link text-white" offset={-55} duration={180} href="#">
@@ -33,7 +33,7 @@ export const Navbar = () => {
               <Link smooth={true} to="skills" spy={true} className="nav-link text-white" offset={-90} duration={180} href="#">
                 Skills
               </Link>
-              <Link smooth={true} to="contacts" spy={true} className="nav-link text-white " offset={-50} duration={288}>
+              <Link smooth={true} to="contacts" spy={true} className="nav-link text-white " offset={-50} duration={150}>
                 Contact
               </Link>
             </div>
